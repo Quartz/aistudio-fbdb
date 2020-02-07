@@ -141,7 +141,6 @@ ALTER SEQUENCE public.ad_texts_id_seq OWNED BY public.ad_texts.id;
 
 CREATE TABLE public.ad_topics (
     id bigint NOT NULL,
-    archive_id bigint,
     topic_id integer,
     proportion double precision,
     created_at timestamp(6) without time zone NOT NULL,
